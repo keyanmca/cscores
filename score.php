@@ -20,10 +20,10 @@
         </script>
     </head>
     <body onload="doscoreinit();"> <div align="center">
-        <big><big><big><big>
+        <big><big>
         <div id="score">
         Loading...
         </div><br/><br/>
-        <a href="index.php">Back Home</a> </big></big></big></big> </div>
+        <a href="index.php">Back Home</a> </big></big></div>
     </body>
 </html>

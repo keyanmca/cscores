@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
-    <body><div align="center"><big><big><big><big>
+    <body><div align="center"><big><big>
         <?php
 $json = file_get_contents("http://cricscore-api.appspot.com/csa");          
 $dcjson = json_decode($json);
@@ -18,6 +18,6 @@ for($x=0;$x<$arrlength;$x++)
     echo "<a href=\"score.php?id=".$dcjson[$x]->id."\">".$dcjson[$x]->t1." vs ".$dcjson[$x]->t2."</a>";
     echo "<br/>";
 }
-?></big></big></big></big></div>
+?></big></big></div>
     </body>
 </html>
