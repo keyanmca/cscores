@@ -15,7 +15,7 @@
                 document.getElementById("score").innerHTML=xmlhttp.responseText;
             }
             function doscoreinit(){
-                setInterval(getscore,5000);   
+                setInterval(getscore,1000);   
             }
         </script>
     </head>
