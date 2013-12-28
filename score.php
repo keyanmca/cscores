@@ -10,7 +10,7 @@
         <script type="text/javascript">
             function getscore(){
                 var xmlhttp=new XMLHttpRequest();
-                xmlhttp.open("GET","ajaxscore.php?id=<?php echo $_GET["id"]; ?>",true);
+                xmlhttp.open("GET","ajaxscore.php?id=<?php echo $_GET["id"]; ?>",false);
                 xmlhttp.send();
                 document.getElementById("score").innerHTML=xmlhttp.responseText;
             }
